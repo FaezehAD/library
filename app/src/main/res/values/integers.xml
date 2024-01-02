@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="yearOfPublication1">1396</integer>
+    <integer name="edition1">12</integer>
+    <integer name="pageNumber1">368</integer>
+
+    <integer name="yearOfPublication2">1387</integer>
+    <integer name="edition2">37</integer>
+    <integer name="pageNumber2">234</integer>
+
+    <integer name="yearOfPublication3">1391</integer>
+    <integer name="edition3">29</integer>
+    <integer name="pageNumber3">412</integer>
+
+    <integer name="yearOfPublication4">1394</integer>
+    <integer name="edition4">97</integer>
+    <integer name="pageNumber4">232</integer>
+
+    <integer name="yearOfPublication5">1399</integer>
+    <integer name="edition5">7</integer>
+    <integer name="pageNumber5">96</integer>
+
+    <integer name="yearOfPublication6">1399</integer>
+    <integer name="edition6">31</integer>
+    <integer name="pageNumber6">480</integer>
+
+    <integer name="yearOfPublication7">1383</integer>
+    <integer name="edition7">54</integer>
+    <integer name="pageNumber7">78</integer>
+
+    <integer name="yearOfPublication8">1399</integer>
+    <integer name="edition8">140</integer>
+    <integer name="pageNumber8">256</integer>
+
+</resources>

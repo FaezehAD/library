@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:layout_marginBottom="14dp"
+            android:importantForAccessibility="no"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/authorPlace"
+                style="@style/Widget.p3.keyTextView"
+                android:text="@string/author" />
+
+            <TextView
+                android:id="@+id/item_author"
+                style="@style/Widget.p3.valueTextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/publisherPlace"
+                style="@style/Widget.p3.keyTextView"
+                android:text="@string/publisher" />
+
+            <TextView
+                android:id="@+id/item_publisher"
+                style="@style/Widget.p3.valueTextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/yearOfPublicationPlace"
+                style="@style/Widget.p3.keyTextView"
+                android:text="@string/yearOfPublication" />
+
+            <TextView
+                android:id="@+id/item_yearOfPublication"
+                style="@style/Widget.p3.valueTextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/editionPlace"
+                style="@style/Widget.p3.keyTextView"
+                android:text="@string/edition" />
+
+            <TextView
+                android:id="@+id/item_edition"
+                style="@style/Widget.p3.valueTextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ISBN_Place"
+                style="@style/Widget.p3.keyTextView"
+                android:text="@string/ISBN" />
+
+            <TextView
+                android:id="@+id/item_ISBN"
+                style="@style/Widget.p3.valueTextView"
+                android:textDirection="ltr"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pageNumberPlace"
+                style="@style/Widget.p3.keyTextView"
+                android:text="@string/pageNumber" />
+
+            <TextView
+                android:id="@+id/item_pageNumber"
+                style="@style/Widget.p3.valueTextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/summaryPlace"
+                style="@style/Widget.p3.keyTextView"
+                android:text="@string/summary" />
+
+            <TextView
+                android:id="@+id/item_summary"
+                style="@style/Widget.p3.valueTextView" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
